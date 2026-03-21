@@ -1,0 +1,59 @@
+import { motion } from "framer-motion";
+
+const MusicSection = () => {
+  return (
+    <section className="py-24 md:py-32 px-6 bg-card/60">
+      <div className="max-w-2xl mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6 }}
+        >
+          <p className="text-sm font-body tracking-widest uppercase text-muted-foreground mb-3">
+            section 3 of things that didn't need a website
+          </p>
+          <h2 className="font-display text-3xl sm:text-4xl mb-4">
+            important cultural exchange
+          </h2>
+          <p className="text-muted-foreground font-body text-lg mb-10 max-w-md mx-auto">
+            since we both love music, I made you a playlist. 
+            because that's what chalant people do.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.97 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="rounded-2xl overflow-hidden shadow-md"
+        >
+          <iframe
+            style={{ borderRadius: "16px" }}
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+            width="100%"
+            height="352"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            title="Spotify Playlist"
+          />
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-6 text-sm text-muted-foreground font-body italic"
+        >
+          scientifically curated for someone who is suspiciously similar to me
+        </motion.p>
+      </div>
+    </section>
+  );
+};
+
+export default MusicSection;
