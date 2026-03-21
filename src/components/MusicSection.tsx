@@ -18,7 +18,7 @@ const MusicSection = () => {
           </h2>
           <p className="text-muted-foreground font-body text-lg mb-10 max-w-md mx-auto">
             since we both love music, I made you a playlist. 
-            because that's what chalant people do.
+            because that's what any normal person in my position would do.
           </p>
         </motion.div>
 
@@ -31,15 +31,16 @@ const MusicSection = () => {
         >
           <iframe
             style={{ borderRadius: "16px" }}
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator&theme=0"
+            src="https://open.spotify.com/embed/playlist/6YlOlTcCt6gQLqP1359Fgw?utm_source=generator"
             width="100%"
-            height="352"
+            height="352"  
             frameBorder="0"
             allowFullScreen
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
             title="Spotify Playlist"
           />
+          
         </motion.div>
 
         <motion.p
