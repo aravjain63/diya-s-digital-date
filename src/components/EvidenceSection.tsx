@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const exhibits = [
   {
     label: "Exhibit A",
-    title: "Brooklyn-99 enthusiasts",
+    title: "Shows",
     description: "Both can quote Jake Peralta at will. Neither is sorry about it.",
     emoji: "📺",
   },
