@@ -71,7 +71,7 @@ const EvidenceSection = () => {
                 {exhibit.label}
               </p>
               <h3 className="font-display text-lg mb-2">{exhibit.title}</h3>
-              <p className="text-sm text-muted-foreground font-body leading-relaxed">
+              <p className="text-sm text-muted-foreground font-body leading-relaxed whitespace-pre-line">
                 {exhibit.description}
               </p>
             </motion.div>
