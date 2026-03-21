@@ -52,13 +52,7 @@ const MirrorSection = () => {
         >
 
         {/* Compatibility report */}
-        <motion.div
-          initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
-          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-14 bg-card rounded-2xl border border-border/50 shadow-sm overflow-hidden text-left"
-        >
+       
           <div className="px-6 py-4 border-b border-border/50">
             <p className="text-xs font-body tracking-widest uppercase text-primary font-medium">
               Findings Report · Sol 15
