@@ -5,7 +5,7 @@ const exhibits = [
     label: "Exhibit A",
     title: "Brooklyn-99 enthusiasts",
     description: "Both can quote Jake Peralta at will. Neither is sorry about it.",
-    emoji: "🚔",
+    emoji: "📺",
   },
   {
     label: "Exhibit B",
