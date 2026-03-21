@@ -5,7 +5,7 @@ const evidence = [
   "I already know where I want to take you.",
   "I'll let you pick the playlist.",
   "I'm told I'm good company. sample size: debatable.",
-  "I look forward to spending time with you and holding your hand"
+  "I look forward to spending time with you and holding your hand.",
 ];
 
 const AskSection = () => {
@@ -27,9 +27,15 @@ const AskSection = () => {
             okay. here's why I really built this.
           </h2>
           <p className="text-lg text-muted-foreground font-body leading-relaxed max-w-sm mx-auto">
-            I'd like to take you on a date Diya.
+            Diya, you have made me the happiest person.
             <br />
-            <span className="text-base">a real one. just us.</span>
+            <span className="text-base">
+              Will you go on a date with me?
+              <br />
+              <span className="text-sm text-muted-foreground/60 italic">
+                (you have to say yes.)
+              </span>
+            </span>
           </p>
         </motion.div>
 
@@ -49,7 +55,7 @@ const AskSection = () => {
                 onClick={() => setAnswered("yes")}
                 className="px-8 py-3.5 bg-primary text-primary-foreground rounded-full font-body font-medium text-base shadow-lg shadow-primary/20 transition-shadow hover:shadow-xl hover:shadow-primary/30"
               >
-                I'm in
+                yes
               </motion.button>
               <motion.button
                 whileHover={{ scale: 1.04 }}
@@ -69,16 +75,24 @@ const AskSection = () => {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
-              className="mt-12"
+              className="mt-12 flex flex-col items-center"
             >
+              <motion.img
+                src="https://media.tenor.com/x8v1oNUOmg4AAAAd/brooklyn99-jake-peralta.gif"
+                alt="Jake Peralta - she said yes"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="rounded-2xl w-72 shadow-lg mb-6"
+              />
               <p className="text-lg font-body text-foreground font-medium">
-                good. I was hoping you'd say that.
+                she said yes. she said yes.
               </p>
               <p className="text-muted-foreground font-body mt-2 leading-relaxed">
                 I'll text you.
                 <br />
                 <span className="text-sm">
-                  (I already took time off, yes I have places in mind)
+                  (I already took time off. yes, I have places in mind.)
                 </span>
               </p>
             </motion.div>
@@ -124,7 +138,7 @@ const AskSection = () => {
                   onClick={() => setAnswered("yes")}
                   className="px-7 py-3 bg-primary text-primary-foreground rounded-full font-body font-medium text-sm shadow-md shadow-primary/20"
                 >
-                  okay, I'm in
+                  okay, yes
                 </motion.button>
               </motion.div>
             </motion.div>
