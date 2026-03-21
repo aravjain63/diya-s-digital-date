@@ -70,45 +70,54 @@ const AskSection = () => {
 
           {answered === "yes" && (
             <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 0.1 }}
-      className="rounded-2xl overflow-hidden w-72 shadow-lg mb-6"
-    >
-      <iframe
-        src="https://tenor.com/embed/14374383"
-        width="100%"
-        height="195"
-        frameBorder="0"
-        allowFullScreen
-        title="Jake Peralta - she said yes"
-      />
-    </motion.div>
-              <motion.img
-      src="https://i.pinimg.com/1200x/13/18/49/131849f6f50c7cf9de8972786f118929.jpg"
-                alt="Jake Peralta - she said yes"
+              key="yes"
+              initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5 }}
+              className="mt-12 flex flex-col items-center"
+            >
+              <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="rounded-2xl w-72 shadow-lg mb-6"
+                className="rounded-2xl overflow-hidden w-72 shadow-lg mb-4"
+              >
+                <iframe
+                  src="https://tenor.com/embed/14374383"
+                  width="100%"
+                  height="195"
+                  frameBorder="0"
+                  allowFullScreen
+                  title="Jake Peralta - she said yes"
+                />
+              </motion.div>
+
+              <motion.img
+                src="https://i.pinimg.com/1200x/13/18/49/131849f6f50c7cf9de8972786f118929.jpg"
+                alt="she said yes"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="rounded-2xl w-72 shadow-lg mb-4"
               />
+
               <motion.img
                 src="https://media.giphy.com/media/wBsF6mUZa9Erj9lgAa/giphy.gif"
                 alt="Jake Peralta - she said yes"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
                 className="rounded-2xl w-72 shadow-lg mb-6"
               />
+
               <p className="text-lg font-body text-foreground font-medium">
                 she said yes. she said yes.
               </p>
               <p className="text-muted-foreground font-body mt-2 leading-relaxed">
                 I'll text you.
                 <br />
-                <span className="text-sm">
-                  (yes, I have ideas in mind.)
-                </span>
+                <span className="text-sm">(yes, I have ideas in mind.)</span>
               </p>
             </motion.div>
           )}
