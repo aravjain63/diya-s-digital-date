@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const exhibits = [
   {
     label: "Exhibit A",
-    title: "Shows",
+    title: "SHOWSSS",
     description: "It's mildly suspicious that I started Gilmore Girls right before meeting you.\nThen we discovered the overlap list: Brooklyn-99, HIMYM, The Pitt, medical dramas… and everything in between.\n\nAt this point the algorithm might just be the same for both of us.",
     emoji: "📺",
   },
