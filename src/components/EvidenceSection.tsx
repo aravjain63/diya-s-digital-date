@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 const exhibits = [
   {
     label: "Exhibit A",
-    title: "Shows",
+    title: "SHOWSSS",
     description: "It's mildly suspicious that I started Gilmore Girls right before meeting you.\nThen we discovered the overlap list: Brooklyn-99, HIMYM, The Pitt, medical dramas… and everything in between.\n\nAt this point the algorithm might just be the same for both of us.",
     emoji: "📺",
   },
   {
     label: "Exhibit B",
-    title: "Watching The Pitt together",
+    title: "MOVIESSSS",
     description: "You watched The Martian with me AND LOVED IT\nand then finished it without me (still processing that betrayal but okay).\n\nBut you also love Fight Club and you're excited for Project Hail Mary, which means your movie taste is both elite and slightly chaotic — which checks out.",
     emoji: "🏥",
   },
@@ -21,14 +21,14 @@ const exhibits = [
   },
   {
     label: "Exhibit D",
-    title: "Cultured people energy",
-    description: "The kind of people who say 'have you seen this film?' and actually mean it.",
-    emoji: "🎭",
+    title: "FOOD",
+    description: "A fellow pyaaz kachori connoisseur and tiramisu enthusiast.",
+    emoji: "🍽️",
   },
   {
     label: "Exhibit E",
     title: "Music obsession",
-    description: "A shared Spotify history that would make any algorithm proud.",
+    description: "A shared Spotify history that would make any algorithm proud, Gracie FTW",
     emoji: "🎵",
   },
 ];
