@@ -78,7 +78,23 @@ const AskSection = () => {
               className="mt-12 flex flex-col items-center"
             >
               <motion.img
-                src="https://media.tenor.com/x8v1oNUOmg4AAAAd/brooklyn99-jake-peralta.gif"
+                src="https://tenor.com/view/brooklyn99-jake-peralta-she-said-yes-gif-14374383"
+                alt="Jake Peralta - she said yes"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="rounded-2xl w-72 shadow-lg mb-6"
+              />
+              <motion.img
+                src="https://pin.it/6f4towajl"
+                alt="Jake Peralta - she said yes"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="rounded-2xl w-72 shadow-lg mb-6"
+              />
+              <motion.img
+                src="https://media.giphy.com/media/wBsF6mUZa9Erj9lgAa/giphy.gif"
                 alt="Jake Peralta - she said yes"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -92,7 +108,7 @@ const AskSection = () => {
                 I'll text you.
                 <br />
                 <span className="text-sm">
-                  (I already took time off. yes, I have places in mind.)
+                  (yes, I have ideas in mind.)
                 </span>
               </p>
             </motion.div>
