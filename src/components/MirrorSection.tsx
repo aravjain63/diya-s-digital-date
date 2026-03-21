@@ -100,7 +100,7 @@ const MirrorSection = () => {
           </div>
           <div className="px-6 py-3 border-t border-border/50">
             <p className="text-xs text-muted-foreground font-body italic">
-              * NASA peer-reviewed this report. they said "just go." · Sol 1, signing off.
+              * NASA peer-reviewed this report. they said "just go." · Sol 15, signing off.
             </p>
           </div>
         </motion.div>
