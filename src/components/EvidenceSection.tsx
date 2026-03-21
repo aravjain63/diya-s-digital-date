@@ -37,7 +37,7 @@ const exhibits = [
     description: "You are cute.\n\
 I am also… not not cute.\n\
 Together that feels like decent levels of cute.",
-    emoji: "🎵",
+    emoji: ":)",
   }
 ];
 
