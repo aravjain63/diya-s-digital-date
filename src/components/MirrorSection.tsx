@@ -19,7 +19,7 @@ const MirrorSection = () => {
           transition={{ duration: 0.5 }}
           className="text-xs font-body tracking-widest uppercase text-muted-foreground mb-8"
         >
-          Sol 1 · Mission log
+          Sol 15 · Mission log
         </motion.p>
 
         <motion.div
