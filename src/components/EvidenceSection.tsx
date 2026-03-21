@@ -9,7 +9,7 @@ const exhibits = [
   },
   {
     label: "Exhibit B",
-    title: "Watching The Pitt together",
+    title: "MOVIESSSS",
     description: "You watched The Martian with me AND LOVED IT\nand then finished it without me (still processing that betrayal but okay).\n\nBut you also love Fight Club and you're excited for Project Hail Mary, which means your movie taste is both elite and slightly chaotic — which checks out.",
     emoji: "🏥",
   },
