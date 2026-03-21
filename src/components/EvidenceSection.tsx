@@ -31,6 +31,14 @@ const exhibits = [
     description: "A shared Spotify history that would make any algorithm proud, Gracie FTW",
     emoji: "🎵",
   },
+  {
+    label: "Exhibit F",
+    title: "Being Cute",
+    description: "You are cute.\n\
+I am also… not not cute.\n\
+Together that feels like decent levels of cute.",
+    emoji: "🎵",
+  }
 ];
 
 const EvidenceSection = () => {
