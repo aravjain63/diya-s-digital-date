@@ -38,7 +38,12 @@ const exhibits = [
 I am also… not not cute.\n\
 Together that feels like decent levels of cute.",
     emoji: ":)",
-  }
+  },
+  {
+  label: "Exhibit G",
+  title: "Shared Niche Interests and Latent Knowledge",
+  description: "A slightly concerning overlap in oddly specific knowledge, niche interests, and the kind of things most people wouldn’t normally care about."
+}
 ];
 
 const EvidenceSection = () => {
