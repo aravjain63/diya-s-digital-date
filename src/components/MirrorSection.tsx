@@ -61,7 +61,7 @@ const MirrorSection = () => {
         >
           <div className="px-6 py-4 border-b border-border/50">
             <p className="text-xs font-body tracking-widest uppercase text-primary font-medium">
-              Findings Report · Sol 1
+              Findings Report · Sol 15
             </p>
             <p className="text-xs text-muted-foreground font-body mt-0.5">
               Subject: Diya. Analyst: the guy who built this instead of just texting.
