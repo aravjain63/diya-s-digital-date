@@ -21,9 +21,9 @@ const exhibits = [
   },
   {
     label: "Exhibit D",
-    title: "Cultured people energy",
-    description: "The kind of people who say 'have you seen this film?' and actually mean it.",
-    emoji: "🎭",
+    title: "FOOD",
+    description: "A fellow pyaaz kachori connoisseur and tiramisu enthusiast.",
+    emoji: "🍽️",
   },
   {
     label: "Exhibit E",
