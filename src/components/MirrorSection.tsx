@@ -50,14 +50,6 @@ const MirrorSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-8 text-muted-foreground font-body italic"
         >
-          Jake Peralta has a word for this situation.
-          <br />
-          <span className="text-foreground font-medium not-italic">
-            cool cool cool cool cool.
-          </span>
-          <br />
-          <span className="text-sm not-italic">(no doubt no doubt no doubt.)</span>
-        </motion.p>
 
         {/* Compatibility report */}
         <motion.div
