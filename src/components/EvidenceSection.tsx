@@ -28,7 +28,7 @@ const exhibits = [
   {
     label: "Exhibit E",
     title: "Music obsession",
-    description: "A shared Spotify history that would make any algorithm proud.",
+    description: "A shared Spotify history that would make any algorithm proud, Gracie FTW",
     emoji: "🎵",
   },
 ];
