@@ -30,7 +30,10 @@ const AskSection = () => {
             Diya, you have made me the happiest person.
             <br />
             <span className="text-base">
-              Will you go on a date with me?
+             I spent one whole dollar on this ring(website).
+              <br />
+            <span className="text-base">
+              Will you go on the worst date ever with me?
               <br />
               <span className="text-sm text-muted-foreground/60 italic">
                 (you have to say yes.)
