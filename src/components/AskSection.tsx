@@ -70,23 +70,22 @@ const AskSection = () => {
 
           {answered === "yes" && (
             <motion.div
-              key="yes"
-              initial={{ opacity: 0, y: 10, filter: "blur(4px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="mt-12 flex flex-col items-center"
-            >
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
+      className="rounded-2xl overflow-hidden w-72 shadow-lg mb-6"
+    >
+      <iframe
+        src="https://tenor.com/embed/14374383"
+        width="100%"
+        height="195"
+        frameBorder="0"
+        allowFullScreen
+        title="Jake Peralta - she said yes"
+      />
+    </motion.div>
               <motion.img
-                src="https://tenor.com/view/brooklyn99-jake-peralta-she-said-yes-gif-14374383"
-                alt="Jake Peralta - she said yes"
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-                className="rounded-2xl w-72 shadow-lg mb-6"
-              />
-              <motion.img
-                src="https://pin.it/6f4towajl"
+      src="https://i.pinimg.com/1200x/13/18/49/131849f6f50c7cf9de8972786f118929.jpg"
                 alt="Jake Peralta - she said yes"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
