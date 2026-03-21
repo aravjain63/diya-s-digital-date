@@ -78,7 +78,7 @@ const AskSection = () => {
                 I'll text you.
                 <br />
                 <span className="text-sm">
-                  (I've already thought about where to go.)
+                  (I already took time off, yes I have places in mind)
                 </span>
               </p>
             </motion.div>
