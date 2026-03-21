@@ -4,13 +4,13 @@ const exhibits = [
   {
     label: "Exhibit A",
     title: "Shows",
-    description: "Both can quote Jake Peralta at will. Neither is sorry about it.",
+    description: "It's mildly suspicious that I started Gilmore Girls right before meeting you.\nThen we discovered the overlap list: Brooklyn-99, HIMYM, The Pitt, medical dramas… and everything in between.\n\nAt this point the algorithm might just be the same for both of us.",
     emoji: "📺",
   },
   {
     label: "Exhibit B",
     title: "Watching The Pitt together",
-    description: "Nothing says bonding like hospital drama and questionable medical decisions.",
+    description: "You watched The Martian with me AND LOVED IT\nand then finished it without me (still processing that betrayal but okay).\n\nBut you also love Fight Club and you're excited for Project Hail Mary, which means your movie taste is both elite and slightly chaotic — which checks out.",
     emoji: "🏥",
   },
   {
@@ -71,7 +71,7 @@ const EvidenceSection = () => {
                 {exhibit.label}
               </p>
               <h3 className="font-display text-lg mb-2">{exhibit.title}</h3>
-              <p className="text-sm text-muted-foreground font-body leading-relaxed">
+              <p className="text-sm text-muted-foreground font-body leading-relaxed whitespace-pre-line">
                 {exhibit.description}
               </p>
             </motion.div>
