@@ -3,10 +3,12 @@ import EvidenceSection from "@/components/EvidenceSection";
 import MusicSection from "@/components/MusicSection";
 import MirrorSection from "@/components/MirrorSection";
 import AskSection from "@/components/AskSection";
+import FloatingElements from "@/components/FloatingElements";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <main className="relative min-h-screen">
+      <FloatingElements />
       <HeroSection />
       <EvidenceSection />
       <MusicSection />
