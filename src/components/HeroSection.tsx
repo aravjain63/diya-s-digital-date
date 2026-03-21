@@ -11,8 +11,8 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="text-muted-foreground font-body text-sm tracking-widest uppercase mb-6"
-      >
+        className="text-muted-foreground font-body text-sm tracking-widest uppercase mb-6">
+        
         a website that probably didn't need to exist
       </motion.p>
 
@@ -20,8 +20,8 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="font-display text-4xl sm:text-5xl md:text-6xl leading-tight max-w-2xl"
-      >
+        className="font-display text-4xl sm:text-5xl md:text-6xl leading-tight max-w-2xl">
+        
         so… this might be <em className="text-primary">slightly</em> unnecessary
         <br />
         but hear me out
@@ -31,10 +31,10 @@ const HeroSection = () => {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 1 }}
-        className="mt-8 max-w-md text-muted-foreground font-body text-lg leading-relaxed"
-      >
-        when two people keep discovering they are basically the same person,
-        eventually someone has to make a website about it.
+        className="mt-8 max-w-md text-muted-foreground font-body text-lg leading-relaxed">
+        
+        After a suspicious number of “wait… same” moments, I felt this situation deserved a small investigation.  
+      
       </motion.p>
 
       <motion.button
@@ -44,12 +44,12 @@ const HeroSection = () => {
         whileHover={{ scale: 1.04 }}
         whileTap={{ scale: 0.97 }}
         onClick={scrollToEvidence}
-        className="mt-12 px-8 py-3.5 bg-primary text-primary-foreground rounded-full font-body font-medium text-base shadow-lg shadow-primary/20 transition-shadow hover:shadow-xl hover:shadow-primary/30"
-      >
+        className="mt-12 px-8 py-3.5 bg-primary text-primary-foreground rounded-full font-body font-medium text-base shadow-lg shadow-primary/20 transition-shadow hover:shadow-xl hover:shadow-primary/30">
+        
         continue investigation ↓
       </motion.button>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
