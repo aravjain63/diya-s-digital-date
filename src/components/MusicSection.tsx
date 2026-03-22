@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import memeCat from "@/assets/meme-cat.png";
 
 const MusicSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6 bg-card/60 relative overflow-hidden">
+    <section className="py-24 md:py-32 px-6 bg-card/60">
       <div className="max-w-2xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -54,16 +53,6 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
-
-      <motion.img
-        src={memeCat}
-        alt="Surprised meme cat"
-        initial={{ opacity: 0, x: 40, rotate: 8 }}
-        whileInView={{ opacity: 1, x: 0, rotate: -4 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.5 }}
-        className="absolute bottom-0 right-4 md:right-12 w-24 md:w-32 drop-shadow-lg pointer-events-none"
-      />
     </section>
   );
 };
