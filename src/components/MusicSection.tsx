@@ -54,6 +54,16 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
+
+      <motion.img
+        src={catLavender}
+        alt="Cat holding lavender"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="absolute bottom-0 right-4 md:right-12 w-28 md:w-40 pointer-events-none select-none"
+      />
     </section>
   );
 };
