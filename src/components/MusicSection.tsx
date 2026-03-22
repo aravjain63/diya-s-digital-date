@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import memeCat from "@/assets/meme-cat.png";
 
 const MusicSection = () => {
   return (
