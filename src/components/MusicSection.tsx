@@ -54,6 +54,16 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
+
+      <motion.img
+        src={memeCat}
+        alt="Surprised meme cat"
+        initial={{ opacity: 0, x: 40, rotate: 8 }}
+        whileInView={{ opacity: 1, x: 0, rotate: -4 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="absolute bottom-0 right-4 md:right-12 w-24 md:w-32 drop-shadow-lg pointer-events-none"
+      />
     </section>
   );
 };
