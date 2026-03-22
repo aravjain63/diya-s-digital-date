@@ -54,6 +54,16 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
+
+      <motion.img
+        src={catCutout}
+        alt="Funny surprised cat"
+        className="absolute bottom-4 right-4 w-24 md:w-32 opacity-80 pointer-events-none select-none"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 0.8, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+      />
     </section>
   );
 };
