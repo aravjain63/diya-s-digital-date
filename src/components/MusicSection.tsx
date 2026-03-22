@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import catLavender from "@/assets/cat-lavender.png";
 
 const MusicSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6 bg-card/60">
+    <section className="py-24 md:py-32 px-6 bg-card/60 relative overflow-hidden">
       <div className="max-w-2xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -53,6 +54,16 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
+
+      <motion.img
+        src={catLavender}
+        alt="Cat holding lavender"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="absolute bottom-0 right-4 md:right-12 w-28 md:w-40 pointer-events-none select-none"
+      />
     </section>
   );
 };
