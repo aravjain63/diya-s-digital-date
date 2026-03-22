@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import catCutout from "@/assets/cat-cutout.png";
 
 const MusicSection = () => {
   return (
-    <section className="relative py-24 md:py-32 px-6 bg-card/60 overflow-hidden">
+    <section className="py-24 md:py-32 px-6 bg-card/60">
       <div className="max-w-2xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -54,16 +53,6 @@ const MusicSection = () => {
           scientifically curated for someone who is suspiciously similar to me
         </motion.p>
       </div>
-
-      <motion.img
-        src={catCutout}
-        alt="Funny surprised cat"
-        className="absolute bottom-4 right-4 w-24 md:w-32 opacity-80 pointer-events-none select-none"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 0.8, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.5 }}
-      />
     </section>
   );
 };
