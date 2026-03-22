@@ -4,11 +4,11 @@ const elements = [
   // left side
   { char: "🌙", top: "5%",  left: "3%",   size: "text-2xl", delay: 0,   duration: 5   },
   { char: "♥",  top: "12%", left: "8%",   size: "text-lg",  delay: 0.7, duration: 6   },
-  { char: "🌙", top: "22%", left: "5%",   size: "text-xl",  delay: 1.4, duration: 7   },
+  { char: "🌙", top: "22%", left: "5%",   size: "text-2xl",  delay: 1.4, duration: 7   },
   { char: "🌙",  top: "35%", left: "2%",   size: "text-2xl", delay: 0.3, duration: 5.5 },
   { char: "🌙", top: "48%", left: "7%",   size: "text-lg",  delay: 1.8, duration: 6.5 },
   { char: "♥",  top: "60%", left: "4%",   size: "text-xl",  delay: 0.5, duration: 5   },
-  { char: "🌙", top: "72%", left: "6%",   size: "text-lg",  delay: 1.1, duration: 7   },
+  { char: "🌙", top: "72%", left: "6%",   size: "text-2xl",  delay: 1.1, duration: 7   },
   { char: "♥",  top: "83%", left: "3%",   size: "text-2xl", delay: 0.2, duration: 6   },
   { char: "🌙", top: "92%", left: "8%",   size: "text-xl",  delay: 1.6, duration: 5.5 },
 
@@ -18,7 +18,7 @@ const elements = [
   { char: "♥",  top: "28%", right: "7%",  size: "text-lg",  delay: 1.5, duration: 7   },
   { char: "🌙", top: "40%", right: "4%",  size: "text-xl",  delay: 0.1, duration: 6.5 },
   { char: "🌙",  top: "53%", right: "6%",  size: "text-2xl", delay: 1.2, duration: 5.5 },
-  { char: "🌙", top: "65%", right: "2%",  size: "text-lg",  delay: 0.6, duration: 6   },
+  { char: "🌙", top: "65%", right: "2%",  size: "text-2xl",  delay: 0.6, duration: 6   },
   { char: "🌙",  top: "76%", right: "5%",  size: "text-xl",  delay: 1.9, duration: 5   },
   { char: "🌙", top: "87%", right: "8%",  size: "text-2xl", delay: 0.8, duration: 7   },
   { char: "♥",  top: "95%", right: "3%",  size: "text-lg",  delay: 1.3, duration: 6.5 },
