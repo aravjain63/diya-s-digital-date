@@ -2,10 +2,13 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const evidence = [
-  "I already know where I want to take you.",
+  "I will not talk about myself the whole time. probably.",
   "I'll let you pick the playlist.",
   "I'm told I'm good company. sample size: debatable.",
-  "I look forward to spending time with you and holding your hand.",
+  "I've already rehearsed three versions of this conversation.",
+  "I'll make you laugh at least once. I'm confident about this.",
+  "I've been told my taste in everything is excellent(by me).",
+  "I will absolutely remember everything you say and bring it up two weeks later.",  
 ];
 
 const AskSection = () => {
