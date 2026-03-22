@@ -62,7 +62,7 @@ const MusicSection = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.5 }}
-        className="absolute bottom-0 right-4 md:right-12 w-38 md:w-50 pointer-events-none select-none"
+        className="absolute bottom-0 right-4 md:right-12 w-36 md:w-48 pointer-events-none select-none"
       />
     </section>
   );
