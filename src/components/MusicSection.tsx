@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import catCutout from "@/assets/cat-cutout.png";
 
 const MusicSection = () => {
   return (
-    <section className="py-24 md:py-32 px-6 bg-card/60">
+    <section className="relative py-24 md:py-32 px-6 bg-card/60 overflow-hidden">
       <div className="max-w-2xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
